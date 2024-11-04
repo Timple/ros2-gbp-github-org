@@ -5,6 +5,7 @@ locals {
     "jacobperron",
     "jonbinney",
     "paulbovbel",
+    "Timple",
   ]
   perception_repositories = [
     "laser_filters-release",
