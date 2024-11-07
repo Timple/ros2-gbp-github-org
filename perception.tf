@@ -5,6 +5,7 @@ locals {
     "jacobperron",
     "jonbinney",
     "paulbovbel",
+    "Rayman",
     "Timple",
   ]
   perception_repositories = [
