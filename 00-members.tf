@@ -8,6 +8,7 @@ locals {
     local.acceleration_wg_team,
     local.ackermann_msgs_team,
     local.aerostack2_team,
+    local.agxeed_team,
     local.ai_prompt_msgs_team,
     local.alliedvision_team,
     local.analogdevices_robotics_team,

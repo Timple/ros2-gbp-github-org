@@ -8,6 +8,7 @@ locals {
     local.acceleration_wg_repositories,
     local.ackermann_msgs_repositories,
     local.aerostack2_repositories,
+    local.agxeed_repositories,
     local.ai_prompt_msgs_repositories,
     local.alliedvision_repositories,
     local.analogdevices_robotics_repositories,
@@ -344,7 +345,7 @@ resource "github_repository" "repositories" {
     # GitHub and that shouldn't be done in the normal course of operation.
     prevent_destroy = true
     # Ignore fields that are not set or managed by this terraform project
-    # to prevent unecessary drift.
+    # to prevent unnecessary drift.
     ignore_changes = [
       allow_merge_commit,
       description,
@@ -370,7 +371,7 @@ resource "github_repository" "ros2-gbp-github-org" {
     # GitHub and that shouldn't be done in the normal course of operation.
     prevent_destroy = true
     # Ignore fields that are not set or managed by this terraform project
-    # to prevent unecessary drift.
+    # to prevent unnecessary drift.
     ignore_changes = [
       allow_merge_commit,
       description,
